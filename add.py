@@ -1,5 +1,12 @@
+# This is another type of add method written in python
 def add(a,b):
-    return(a + b)
+    res = a + b
+    return(res)
 print(add(4,5))
-# This is single line comment in python
+
+
+def root(num):
+    reutrn num ** 0.5
+# calling the root method
+print(root(98))
 
