@@ -12,3 +12,7 @@ def root(num):
 # calling the root method
 print(root(98))
 
+#adding a new method
+def greet(msg):
+    print(f'your greeting message is : {msg}')
+
